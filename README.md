@@ -1,5 +1,16 @@
 # P-tuning for LAMA
 This repo contains example code for LAMA experiments in P-tuning.
+这是刘潇大佬的[P-tuning](https://github.com/THUDM/P-tuning)在LAMA数据集上的一个小demo，本人在读源码过程中发现其写的代码非常好，但由于大佬代码的工程性很强，阅读起来并不是很快，因此本人在最小粒度上
+增加了很多注释和一个基于bert-base-uncased的最小demo的展示。
+
+
+
+
+
+
+
+
+
 
 ## Usage
 run cli.py to start the experiment
