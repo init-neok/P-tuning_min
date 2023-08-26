@@ -6,8 +6,10 @@ This repo contains example code for LAMA experiments in P-tuning.
 ## 数据
 
 数据原github文件放在[[Zenodo]](https://zenodo.org/record/5578210/files/P-tune_LAMA.tar.gz?download=1)这里，下载会有点慢，下载完后，**放在LAMA目录下**解压就好。
-
-
+## 环境问题
+1. 最好使用gpu运行，不然很多问题，浮点数运算会报错。
+2. 经过我测试，原作者说明使用torch==1.5.0版本，但我在实际测试过程中用了1.8.0版本报错，但在colab上使用2.0版本的torch是没有问题的，猜测可能某个属性在1.5版本有，1.8版本时成为bug没继承好，在2.0版本进行修复，好像叫什么**AttributeError: module "torch' has no attribute 'frombuffer'**
+所以建议直接py3.10+torch2.0 反正最新配置就好
 
 
 
